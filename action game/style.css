@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#app {
+    display: flex;
+    height:100vh;
+    width:100;
+    background-color: rgb(134, 134, 177);
+}
+
+#canvas {
+    margin: auto;
+    height: 600px;
+    width: 400px;
+   
+    
+
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    background-color: rgb(80, 80, 201);
+
+    
+}
+
+.snake {
+    background-color: green;
+
+}
+
+
+.apple {
+    background-color: red;
+    border-radius: 0;
+}
